@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Equipos de PC</title>   <!-- FIN DE LÍNEA GRIS --> 
+</head>
+
+<body>
+
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="Logo">
+   
+            <p id="dayOfWeek"></p>
+            <script>
+       		 var daysOfWeek = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+       		 var currentDate = new Date();
+       		 var currentDay = daysOfWeek[currentDate.getDay()];
+       		 document.getElementById("dayOfWeek").textContent = currentDay;
+    	    </script>
+
+        </div>
+
+        <nav>
+   	  <ul>
+  	       <li><a href="#inicio" data-section="inicio">Inicio</a></li>
+               <li><a href="#quienes_somos" data-section="quienes_somos">Quiénes Somos</a></li>
+
+               <li><a href="#productos" data-section="productos">Productos</a></li>
+               <li><a href="#contactenos" data-section="contactenos">Contáctenos</a></li>
+ 	    </ul>
+	</nav>
+
+
+
+    </header>
+
+  <img src="banner.jpg" alt="Banners para todas las páginas">
+ 
+ <main>
+<!-- INICIO -->
+
+        <section id="inicio" class="seccion">
+            <h1>Bienvenido a Nuestro Sitio Web</h1>
+
+            <!-- LÍNEA GRIS -->  <div class="col-5" id="linea"><hr></div> 
+
+            <p>En Infoservicios SUME, la tecnología es nuestra pasión y la excelencia es nuestra norma. Durante más de 23 años, hemos estado comprometidos en ofrecer soluciones tecnológicas de vanguardia que impulsan el éxito de individuos y empresas en todo Panamá.
+
+Nuestro compromiso con la innovación, la calidad y el servicio al cliente nos ha convertido en líderes en el sector tecnológico. Ya sea que estés buscando asesoramiento tecnológico, equipos de alta calidad, servicios de reparación confiables o soluciones personalizadas, estás en el lugar correcto.
+
+En Infoservicios SUME, no solo vendemos tecnología; creamos soluciones que se adaptan a tus necesidades específicas. Estamos aquí para hacer que tu experiencia tecnológica sea más eficiente, productiva y emocionante.
+
+Explora nuestro sitio web para conocer más sobre nuestros servicios, productos y proyectos pasados. Si tienes alguna pregunta o necesitas asistencia, no dudes en ponerte en contacto con nuestro equipo de expertos. Estamos aquí para ayudarte en cada paso del camino.
+
+Gracias por visitarnos. Esperamos ser tu socio confiable en tecnología en Panamá durante muchos años más.</p>
+
+           <!-- BANNER DE QUIENES SOMOS Y PRODUCTOS-->
+
+            <div class="banners">
+
+                <div class="banner">
+                    <h2>Quiénes Somos</h2>
+                        <br>
+			<img src="quienes_somos.png" alt="Imagen de Quienes Somos">
+
+
+
+                </div>
+
+                <div class="banner">
+                   <h2>Nuestros Productos</h2>
+                    <img src="nuestros_productos.png" alt="Imagen de Productos">
+                </div>
+            <div class="banners">
+     </section>
+
+
+<!-- SOMOS -->
+ 
+<section id="quienes_somos" class="seccion">
+   
+            <h1>Quienes Somos</h1>
+            <!-- LÍNEA GRIS -->  <div class="col-5" id="linea"><hr></div> <!-- FIN DE LÍNEA GRIS -->
+
+             <p>Infoservicios SUME es una empresa con más de 23 años de experiencia en el sector tecnológico en Panamá. Fundada por Juan Sutherland en honor a sus apellidos Sutherland y Mendoza, la empresa se ha convertido en un referente en soluciones tecnológicas innovadoras y confiables.</p>
+
+	    <h2>Valores</h2>
+            <p>Nuestros valores fundamentales son el profesionalismo, la integridad, la comunicación efectiva, la colaboración y la innovación. Estos valores guían cada aspecto de nuestro negocio y nuestras relaciones.</p>
+
+	    <h2>Misión</h2>
+            <p>Nuestra misión es seguir siendo líderes en el sector tecnológico en Panamá, brindando servicios y soluciones que superen las expectativas de nuestros clientes. Trabajamos incansablemente para ofrecer tecnología de vanguardia que haga que la vida de las personas y las empresas sea más fácil y eficiente.</p>
+         
+	    <h2>Visión</h2>
+            <p>En Infoservicios SUME, nuestra visión es mantener relaciones a largo plazo con nuestros clientes, colaboradores y proveedores. Nos esforzamos por crecer junto a ellos y proporcionar soluciones tecnológicas ideales y accesibles para todos.</p>
+
+</section>
+
+
+<!-- ENCABEZADO DE PRODUCTOS-->
+
+    <!-- SECCIÓN DE PRODUCTOS -->
+
+    <section id="productos" class="seccion">
+
+    <h2>Productos</h2> 
+
+         <!-- LÍNEA GRIS -->  <div class="col-5" id="linea"><hr></div> <!-- FIN DE LÍNEA GRIS -->
+       
+      <div class="productos-container">
+ 
+            <div class="producto">
+    <img src="portatiles.jpg" alt="Portátiles">
+    <h3>Portátiles</h3>
+    <p>Nuestra gama de portátiles ofrece la movilidad y el rendimiento que necesitas. Desde ultrabooks elegantes hasta potentes estaciones de trabajo portátiles, tenemos el equipo perfecto para tu estilo de vida o negocio.</p>
+</div>
+
+<div class="producto">
+    <img src="monitores.jpg" alt="Monitores">
+    <h3>Monitores</h3>
+    <p>Nuestros monitores brindan una experiencia visual excepcional. Ya sea para trabajo, juegos o entretenimiento, disfruta de imágenes nítidas y colores vibrantes en tamaños que se adaptan a tus necesidades.</p>
+</div>
+
+<div class="producto">
+    <img src="componentes.jpg" alt="Componentes">
+    <h3>Componentes</h3>
+    <p>Encuentra una amplia selección de componentes tecnológicos de alta calidad. Desde tarjetas gráficas hasta procesadores, tenemos lo que necesitas para potenciar tu equipo.</p>
+</div>
+
+<div class="producto">
+    <img src="accesorios.jpg" alt="Accesorios de PC">
+    <h3>Accesorios de PC</h3>
+    <p>Completa tu configuración con nuestros accesorios de PC. Teclados, ratones, auriculares, fundas y más, diseñados para mejorar tu experiencia informática.</p>
+</div>
+
+<div class="producto">
+    <img src="escritorios.jpg" alt="Equipos de Escritorio">
+    <h3>Equipos de Escritorio</h3>
+    <p>Nuestros equipos de escritorio ofrecen potencia y confiabilidad. Desde estaciones de trabajo robustas hasta PCs todo en uno elegantes, te ayudamos a encontrar el equipo perfecto para tu espacio.</p>
+</div>
+
+<div class="producto">
+    <img src="conectividad.png" alt="Conectividad">
+    <h3>Conectividad</h3>
+    <p>Mantente conectado en todo momento con nuestros productos de conectividad. Desde routers y módems hasta adaptadores Wi-Fi, optimiza tu red doméstica o empresarial.</p>
+</div>
+
+<div class="producto">
+    <img src="perifericos.jpg" alt="Periféricos">
+    <h3>Periféricos</h3>
+    <p>Maximiza tu productividad con nuestros periféricos de alta calidad. Impresoras, escáneres, cámaras web y más para todas tus necesidades de hardware.</p>
+</div>
+
+<div class="producto">
+    <img src="impresoras.png" alt="Impresoras">
+    <h3>Impresoras</h3>
+    <p>Descubre una amplia gama de impresoras para todas tus necesidades de impresión. Desde impresoras láser para documentos profesionales hasta impresoras de inyección de tinta para fotos de alta calidad.</p>
+</div>
+
+<div class="producto">
+    <img src="almacenamiento.jpg" alt="Almacenamiento">
+    <h3>Almacenamiento</h3>
+    <p>Protege y almacena tus datos importantes con nuestros productos de almacenamiento. Discos duros externos, unidades flash USB y tarjetas de memoria para mantener tus archivos seguros y accesibles.</p>
+</div>
+
+<div class="producto">
+    <img src="tablet.jpg" alt="Tablet">
+    <h3>Tablet</h3>
+    <p>Nuestras tablets ofrecen la versatilidad de una computadora en un formato compacto. Perfectas para la productividad sobre la marcha, el entretenimiento y la educación.</p>
+</div>
+
+ 
+</div>   
+</section>
+
+ <!-- CIERRA SECCIÓN DE PRODUCTOS-->
+
+ </main>
+
+
+<!-- CONTACTENOS -->
+
+  <section id="contactenos" class="seccion">
+
+
+	<!-- SECCIÓN DE CONTACTENOS -->
+
+            <h2>Contáctenos</h2>
+            <div class="datos-contacto">
+                <p>Ubicación: Betania - Camino Real Edificio Paseo Real Planta Baja</p>
+                <p>Correo Electrónico: ventas@infoserviciossume.com</p>
+                <p>Teléfono: +507-6513-6422</p>
+           </div>
+
+	<!-- SECCIÓN DEL FORMULARIO-->
+
+            <div class="formulario">
+                <h3>Formulario de Contacto</h3>
+                <form id="contact-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" rows="4" required></textarea>
+ 		 
+	            <!-- BOTÓN ENVIAR Y FUNCIÓN DE LA TABLA -->
+                    <button id="btnMostrarDatos">Enviar</button>
+	         </form>
+            </div>
+   </section>
+
+<!-- SECCIÓN DE PIE DE PÁGINA -->
+
+    <footer>
+        <div id="footer-content">
+            <p>Juan S. Sutherland M. &copy; Septiembre 2023. Sitio Web con los derechos reservados.</p>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
